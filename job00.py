@@ -1,11 +1,5 @@
 # Databricks notebook source
 # COMMAND ----------
-# Create widgets
-dbutils.widgets.text("config_file", "/dbfs/user/thuang/mock_config_file.txt")
-dbutils.widgets.text("start_task", "task0000")
-dbutils.widgets.text("end_task", "task0002")
-
-# COMMAND ----------
 
 start_task = dbutils.widgets.get("start_task")
 
